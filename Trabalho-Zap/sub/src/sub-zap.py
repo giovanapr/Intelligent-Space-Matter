@@ -4,8 +4,17 @@ import time
 
 log = Logger(name='Giovana')
 
+log.info("Indicate the broker's IP and port")
+IP = input(f"IP (or ENTER for localhost): ") or "localhost"
+PORT = input(f"PORT (or ENTER for 5672): ") or "5672"
+
+log.info("Broker login")
+user = input(f"Username (or ENTER for guest): ") or "guest"
+password = input(f"Password (or ENTER for guest): ") or "guest"
+
 #Connect to the broker
-channel = Channel("amqp://guest:guest@10.10.0.120:5672")
+channel = Channel(f"amqp://{user}:{password}@{IP}:{PORT}")
+log.info(f"Created channel - amqp://{user}:{password}@{IP}:{PORT}")
 
 log.info("----------------Receive messages------------------")
 
