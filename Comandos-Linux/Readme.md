@@ -1,6 +1,6 @@
 # Comandos Linux usados na matéria
 
-Objetivo: Enviar e receber mensagens usando o modelo Pub/Sub com um broker RabbitMQ.
+Objetivo: Salvar pricipais comandos para consulta rápida.
 
 ### Enviando arquivos para outras máquinas
 
