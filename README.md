@@ -1,1 +1,1 @@
-Este repositório contém todas as atividades realizadas na disciplina de Espaços Inteligentes - IFES Campus Guarapari.
+This repository contains all activities intelligent spaces dicipline - IFES Campus Guarapari.
