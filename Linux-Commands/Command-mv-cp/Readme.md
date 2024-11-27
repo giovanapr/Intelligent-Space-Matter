@@ -7,11 +7,12 @@ The Basic Syntax for mv command in linux ir mentioned below.
 mv [option(s)] [source_file_name(s)] [Destination_file_name]
 ```
 Here,
-source_file_name(s): 
+source_file_name(s): The name of the files that we want to rename or move.
+Destination_file_name: The name of the new location or the name of the file
 
 https://www.geeksforgeeks.org/mv-command-linux-examples/
 
-Exemplo:
+For Example:
 ```
 scp Guepardo.jpg root@10.10.1.184:/testes_cursoIS/Trabalho-IS
 ```
