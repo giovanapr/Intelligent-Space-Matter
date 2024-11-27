@@ -1,4 +1,4 @@
-# Commands mv
+# Command mv
 
 How to Rename a file in Linux Using mv Command
 ```
@@ -17,7 +17,7 @@ How to Rename a directory in Linux Using mv Command in Linux
 mv [source_directory_name(s)] [Destination_directory_name]
 ```
 By: https://www.geeksforgeeks.org/mv-command-linux-examples/
-# Commands cp
+# Command cp
 ```
 cp [source_file] [destination_file]
 ```
