@@ -1,1 +1,1 @@
-This repository contains all activities intelligent spaces dicipline - IFES Campus Guarapari.
+This repository contains all the activities and notes from elective course Intelligent Spaces in the Electrical Engineering program at IFES Campus Guarapari.
