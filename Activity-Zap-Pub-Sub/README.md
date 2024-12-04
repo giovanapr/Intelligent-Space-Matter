@@ -1,4 +1,4 @@
-# Simulating a Chat App with Pub/Sub
+# Simulating the ZAp with Pub/Sub
 
 Objetivo: Enviar e receber mensagens usando o modelo Pub/Sub com um broker RabbitMQ, simulando o funcionamento de um WhatsApp. O publish irá enviar mensagens de para o tópico da pessoa que deseja enviar e o consumer iŕa realizar uma subscription no topic com o nome dele, para receber as mensagens que são enviadas para pessoa.
 
