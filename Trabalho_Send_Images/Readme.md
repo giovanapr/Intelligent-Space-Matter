@@ -1,6 +1,6 @@
-# Trabalho Enviar e Consumir Imagens
+# Send and Consume Messages
 
-Objetivo: Enviar e receber imagens usando o modelo Pub/Sub com um broker RabbitMQ.
+Objective: Send and receive images using the Pub/Sub model with a RabbitMQ broker.
 
 ### Broker
 
