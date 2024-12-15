@@ -6,6 +6,7 @@ Objective: Send and receive images using the Pub/Sub model with a RabbitMQ broke
 
 First, create a file called Dockerfile. This file defines how your Docker image will be built.
 
+Dockerfile Example:
 ```
 # Base image
 FROM python:3.9-slim
@@ -23,3 +24,15 @@ RUN pip install --no-cache-dir -r requirements.txt
 CMD ["python", "app.py"]
 
 ```
+## 2 Prepare the environment
+
+Make sure all required files (like app.py, requirements.txt) are in the same directory as the Dockerfile.
+
+### 3 
+
+
+
+
+
+
+
