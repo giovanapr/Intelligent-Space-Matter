@@ -1,1 +1,25 @@
-Teste
+# Creating Images Docker
+
+Objective: Send and receive images using the Pub/Sub model with a RabbitMQ broker.
+
+### 1 Create the Dockerfile
+
+First, create a file called Dockerfile. This file defines how your Docker image will be built.
+
+```
+# Base image
+FROM python:3.9-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy application files
+COPY . .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Define the command to run the application
+CMD ["python", "app.py"]
+
+```
