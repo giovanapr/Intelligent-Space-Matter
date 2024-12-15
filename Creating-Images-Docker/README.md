@@ -33,9 +33,18 @@ Make sure all required files (like app.py, requirements.txt) are in the same dir
 Run the command to build the Docker image:
 
 ```
-docker build -t nome-da-imagem .
+docker build -t nome-da-imagem:v1 .
 ```
 Note: If you are uploading the image to Docker Hub, use the same name as the repository created.
+
+## Check the Created Image
+
+List the images to confirm that the image was created:
+
+```
+docker images
+```
+
 
 
 
