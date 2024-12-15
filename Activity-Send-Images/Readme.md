@@ -15,11 +15,15 @@ docker run -it --rm -v <local_directory>:/app/<container_directory> --network <n
 ```
 Example:
 ```
-docker run -it --rm -v /testes_cursoIS/Trabalho-IS/Trabalho-Send-Images:/app/images --network host giovanapr/pub-img:v1
+docker run -it --rm -v .:/app/images --network host giovanapr/pub-img:v1
 ```
 
 ### Consumer
 
 ```
-docker run -it --network host giovanapr/sub-zap:v3
+docker run -it --rm -v <local_directory>:/data --network <network_mode> giovanapr/sub-img:v1
+```
+Example:
+```
+docker run -it --rm -v .:/data --network host giovanapr/sub-img:v1
 ```
