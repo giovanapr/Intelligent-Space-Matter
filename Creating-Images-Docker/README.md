@@ -49,7 +49,7 @@ Create and launch a container based on the created image:
 ```
 docker run image-name
 ```
-#Docker Hub
+# Docker Hub
 
 ## 1 Login in
 ```
