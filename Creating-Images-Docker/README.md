@@ -37,14 +37,14 @@ docker build -t nome-da-imagem:v1 .
 ```
 Note: If you are uploading the image to Docker Hub, use the same name as the repository created.
 
-## Check the Created Image
+## 4 Check the Created Image
 
 List the images to confirm that the image was created:
 
 ```
 docker images
 ```
-## Run a Container Using the Image
+## 5 Run a Container Using the Image
 Create and launch a container based on the created image:
 ```
 docker run image-name
