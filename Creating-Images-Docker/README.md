@@ -49,9 +49,20 @@ Create and launch a container based on the created image:
 ```
 docker run image-name
 ```
+#Docker Hub
 
+## 1 Login in
+```
+docker login
+```
 
+## 2 Upload New Version to Docker Hub
+```
+docker push usuario123/meu-app:2.0
+```
 
-
-
-
+## 3 Use the Image
+Now your image will be publicly available on Docker Hub and can be used on any machine with the command:
+```
+docker pull usuario123/meu-app:2.0
+```
