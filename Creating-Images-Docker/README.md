@@ -44,7 +44,11 @@ List the images to confirm that the image was created:
 ```
 docker images
 ```
-
+## Run a Container Using the Image
+Create and launch a container based on the created image:
+```
+docker run image-name
+```
 
 
 
