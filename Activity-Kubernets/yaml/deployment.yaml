@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: giovanasub
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: giovanasub
+  template:
+    metadata:
+      labels:
+        app: giovanasub
+    spec:
+      containers:
+      - name: giovanasub
+        image: giovanapr/sub-img-ku:v1
+        volumeMounts:
+        - name: volume-images
+          mountPath: /data  # Caminho dentro do contêiner
+        envFrom:
+        - configMapRef:
+            name: giovana-deploy-kube-config
+      volumes:
+      - name: volume-images
+        persistentVolumeClaim:
+          claimName: giovana-images

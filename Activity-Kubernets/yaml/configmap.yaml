@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: giovana-deploy-kube-config
+data:
+  IP: "10.10.2.29"
+  PORT: "5672"
+  TOPIC: "image"
